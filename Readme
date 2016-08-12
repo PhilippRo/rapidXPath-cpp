@@ -1,0 +1,11 @@
+This is an extension of rapidxml, that supports very simple XPath queries like:
+- /nodename
+- /@attribute
+- /nodename/text
+- /nodename[nodenum]  
+- /nodename[attribute = 'attributeval']
+as you know from full XPath implementations
+
+
+Required:
+- boost any
